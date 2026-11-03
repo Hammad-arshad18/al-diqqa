@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build / output
+dist/
+build/
+out/
+.react-router/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+apps/pocketbase/.pb_encryption_key
+
+# PocketBase
+apps/pocketbase/pocketbase
+apps/pocketbase/pb_data/
+
+# Logs & debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Caches
+.cache/
+.turbo/
+.vite/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+*.swp
+*.swo
+*~
